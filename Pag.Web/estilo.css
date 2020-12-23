@@ -1,0 +1,37 @@
+.barra-navegacion {
+    background-color: #333;
+    overflow: hidden;
+}
+  
+.barra-navegacion a {
+    float: left;
+    color: #a87d7d;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+.barra-navegacion a:hover {
+    background-color: rgb(128, 122, 163);
+    color: rgb(52, 56, 66);
+}
+  
+
+.barra-navegacion a.active {
+    background-color: rgb(128, 122, 163);
+    color: white;
+}
+
+.formato1{
+    background-color: lightgrey;
+    color: rgb(13, 13, 14);
+}
+.formato2{
+    background-color: rgb(128, 122, 163);
+    color: rgb(14, 13, 13);
+}
+
+.container1{
+    font: italic small-caps bold 12px/30px Georgia, serif;
+}
